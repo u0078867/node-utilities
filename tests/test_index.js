@@ -1,6 +1,6 @@
 'use strict';
 
-var bcrypt = require('bcrypt');
+var bcrypt = require('bcryptjs');
 var crypto = require('crypto');
 var cluster = require('cluster');
 var os = require('os');

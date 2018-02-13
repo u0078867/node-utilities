@@ -1,7 +1,7 @@
 'use strict';
 
 var Promise = require('any-promise');
-var bcrypt = require('bcrypt');
+var bcrypt = require('bcryptjs');
 var crypto = require('crypto');
 var os = require('os');
 var fs = require('fs');
